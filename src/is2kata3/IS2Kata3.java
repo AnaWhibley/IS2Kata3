@@ -7,6 +7,9 @@ public class IS2Kata3 {
         Histogram<String> histogram = new Histogram<>();
         
         histogram.increment("gmail.com");
+        histogram.increment("hotmail.com");
+        histogram.increment("hotmail.com");
+        histogram.increment("ulpgc.es");
         histogram.increment("ulpgc.es");
         histogram.increment("ulpgc.es");
         histogram.increment("dis.ulpgc.es");
